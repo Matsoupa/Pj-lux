@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LuxeCars</title>
+</head>
+<body>
+    <header>
+        <!-- menu responsive -->
+
+        <div class="menu_toggle">
+            <span></span>
+        </div>
+
+        <div class="logo">
+            <p><span>Luxe</span>Cars</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#Cars">Mots du directeur</a></li>
+            <li><a href="#realisation">Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <img class="option" src=".//menu.png" alt="">
+    </header>
+    <!-- section Acceuil -->
+
+    <section id="home">
+        <div class="left">
+            <h1>Achetez <span>Votre Voiture</span> Moins Chères Chez Nous</h1>
+            <p>l'entreprise LuxeCars met à votre disposition un large choix de voitures de luxe d'une qualité superieur. Tous ça à des prix défiants toutes concurrences</p>
+            <a href="pages/achats.html">Achetez maintenant</a>
+        </div>
+        <div class="right">
+            <img src="./imageacceuil.webp" alt="Cars">
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- section directeur -->
+
+    <section id="Cars">
+        <h1 class="title">Mots du directeur</h1>
+        <div class="mots">
+            <p>LuxeCars, C'est une conviction et une passion partagées par des hommes et des femmes pour qui l'automobile est un sacerdoce.</p><br><br><br>
+            <p>Dans notre engagement envers l'exellence, nous sommes ravis de vous presenter un large choix de vehicules de luxe à la pointe de l'innovation. votre satisfaction reste notre priorité absolue, et nous esperons dépasser vos attentes.</p><br><br><br>
+            <p>LuxeCars ne vend pas simplement des véhicules mais des biens d'une rare qualité et d'une beauté sans pareil. Ensemble roulant vers un avenir meilleur.</p><br><br><br>
+            <p><strong>M.MATSOUPA BOUNDA MALON</strong></p>
+        </div>
+    </section>
+     
+    <!-- section Réalisations -->
+
+    <section id="realisation">
+        <h1 class="archive">Réalisations</h1>
+        <div class="images">
+            <ul>
+                <li class="caisse">
+                    <div>
+                        <img src="./mercedes-maybach-exellero.jpg" alt="">
+                    </div>
+                    <span>Mercedes-maybach</span>
+                    <span class="prix">300.000$</span>
+                    <span class="statut">Vendu le 10/02/2022 à Barcelone</span>
+                </li>
+                <li class="caisse">
+                    <div>
+                        <img src="./aspark owl.jpg" alt="">
+                    </div>
+                    <span>Aspark owl</span>
+                    <span class="prix">560.000$</span>
+                    <span class="statut">Vendu le 18/11/2022 à Manchestere</span>
+                </li>
+                <li class="caisse">
+                    <div>
+                        <img src="./bugatti.jpg" alt="">
+                    </div>
+                    <span>bugatti</span>
+                    <span class="prix">480.000$</span>
+                    <span class="statut">Vendu le 21/09/2023 à madrid</span>
+                </li>
+                <li class="caisse">
+                    <div>
+                        <img src="./lexus-ux-33000.jpg" alt="">
+                    </div>
+                    <span>Lexus-ux-33 000</span>
+                    <span class="prix">80.000$</span>
+                    <span class="statut">Vendu le 27/02/2023 à Libreville</span>
+                </li>
+                <li class="caisse">
+                    <div>
+                        <img src="./cadilacXT436450.jpg" alt="">
+                    </div>
+                    <span>Cadilac-XT4-36 500</span>
+                    <span class="prix">45.000$</span>
+                    <span class="statut">Vendu le 05/03/2023 à Dakar</span>
+                </li>
+                <li class="caisse">
+                    <div>
+                        <img src="./Audi-A36-33900.jpg" alt="">
+                    </div>
+                    <span>Audi-A36-33 900</span>
+                    <span class="prix">100.000$</span>
+                    <span class="statut">Vendu le 15/07/2023 à Abidjan</span>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- section contact -->
+
+    <section id="contact">
+        <h1 class="title">Contact</h1>
+        <div class="localisation">
+            <div class="loc">
+                <h3>Notre Adresse</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123488.88707642847!2d-17.465825!3d14.711024450000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d452a7bee8f%3A0xcbc0c3c0922e0f3e!2sChef%20du%20quartier!5e0!3m2!1sfr!2ssn!4v1707875615087!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-contact">
+                <h3>Envoyez un message</h3>
+                <form action="#">
+                    <input type="text" placeholder="Nom">
+                    <input type="mail" placeholder="Adresse Mail">
+                    <input type="text" placeholder="Objet">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </section>*
+    <script>
+
+        var menu_toggle = document.querySelector('.menu_toggle');
+        var menu = document.querySelector('.menu');
+        var menu_toggle_span = document.querySelector('.menu_toggle span');
+        
+
+
+
+
+    </script>
+    
+   
+</body>
+</html>
